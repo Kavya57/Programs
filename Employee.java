@@ -1,39 +1,51 @@
-package com.deloitte.java.entity;
-
-import java.time.LocalDate;
-
-public class Employee 
+package com.del.entity;
+import java.sql.Date;
+public class Employee
 {
-   LocalDate doj;
-   int empId;
-   String ename;
-   double Salary;
-   public int getEmpId() {
-	return empId;
-}
-public void setEmpId(int empId) {
-	this.empId = empId;
-}
-public String getEname() {
+  int empid;
+  String ename;
+  double salary;
+  Date doj;
+  public Employee(int empid, String ename, double salary, Date doj)
+  {
+	super();
+	this.empid = empid;
+	this.ename = ename;
+	this.salary = salary;
+	this.doj = doj;
+  }
+  public Employee() { }
+  public int getEmpid()
+  {
+	return empid;
+  }
+  public void setEmpid(int empid)
+  {
+ 	this.empid = empid;
+  }
+  public String getEname()
+  {
 	return ename;
-}
-public void setEname(String ename) {
+  }
+  public void setEname(String ename)
+  {
 	this.ename = ename;
-}
-public double getSalary() {
-	return Salary;
-}
-public void setSalary(double salary) {
-	Salary = salary;
-}
-
-   public Employee() 
-   {
-    }
-public Employee(int empId, String ename, double salary) 
-{
-	this.empId = empId;
-	this.ename = ename;
-	Salary = salary;
-}
+  }
+  public double getSalary()
+  {
+	return salary;
+  }
+  public void setSalary(double salary)
+  {
+	this.salary = salary;
+  }
+  public Date getDoj()
+  {
+	return doj;
+  }
+  public void setDoj(Date doj)
+  {
+	this.doj = doj;
+  }
+   
 }
