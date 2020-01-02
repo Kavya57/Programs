@@ -1,38 +1,49 @@
-package com.deloitte.java.entity;
-public class Student extends Person
+import java.sql.Date;
+public class Student
 {
-    int rno, m1,m2;
-	public Student() { }
-	
-	public Student(int ssn, int age, String name,int rno, int m1, int m2)
-	{
-		super(ssn, age, name);
-		this.rno = rno;
-		this.m1 = m1;
-		this.m2 = m2;
-	}
-
-	public int getRno() {
-		return rno;
-	}
-
-	public void setRno(int rno) {
-		this.rno = rno;
-	}
-
-	public int getM1() {
-		return m1;
-	}
-
-	public void setM1(int m1) {
-		this.m1 = m1;
-	}
-
-	public int getM2() {
-		return m2;
-	}
-
-	public void setM2(int m2) {
-		this.m2 = m2;
-	} 
+   int rno,age;
+   String name;
+   Date dob;
+   public Student(int rno,String name, int age,  Date dob)
+   {
+	super();
+	this.rno = rno;
+	this.age = age;
+	this.name = name;
+	this.dob = dob;
+   }
+public int getRno() 
+   {
+	return rno;
+   }
+   public void setRno(int rno) 
+   {
+	this.rno = rno;
+   }
+   public int getAge() 
+   {
+	return age;
+   }
+   public void setAge(int age) 
+   {
+	this.age = age;
+   }
+   public String getName() 
+   {
+	return name;
+   }
+   public void setName(String name)
+   {
+ 	this.name = name;
+   }
+   public Date getDob()
+   {
+	return dob;
+   }
+   public void setDob(Date dob)
+   {
+	this.dob = dob;
+   }
+   
+    
 }
