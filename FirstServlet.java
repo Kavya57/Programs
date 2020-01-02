@@ -5,7 +5,7 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebServlet;
-@WebServlet("/ms")
+@WebServlet("/fs")
 public class FirstServlet extends javax.servlet.GenericServlet
 { 
    public void service(ServletRequest request, ServletResponse response) throws IOException, ServletException
@@ -13,9 +13,9 @@ public class FirstServlet extends javax.servlet.GenericServlet
 	response.setContentType("text/html");
 	PrintWriter out=response.getWriter();
 	out.print("<html><body>");
-	out.println("<h1><center>");
+	out.println("<h1 style='color:blue; text-align:center'>");
 	out.println(new java.util.Date());
-	out.println("</center></h1>");
+	out.println("</h1>");
 	out.println("</body></html>");
   }
 } 
