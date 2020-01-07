@@ -5,30 +5,31 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
-import com.deloitte.thirdmvn.hibthird.entity.AadharCard;
-import com.deloitte.thirdmvn.hibthird.entity.Department;
-import com.deloitte.thirdmvn.hibthird.entity.Employee;
-import com.deloitte.thirdmvn.hibthird.entity.Person;
+import com.deloitte.thirdmvn.hibthird.entity.Course;
+import com.deloitte.thirdmvn.hibthird.entity.Student;
 public class App 
 {
     public static void main( String[] args )
     {
     	Configuration cfg=new Configuration();
+    	cfg.addAnnotatedClass(Course.class);
+    	cfg.addAnnotatedClass(Student.class);
     	cfg.configure();
     	SessionFactory factory=cfg.buildSessionFactory();
     	Session session=factory.openSession();
-    	Department d=session.get(Department.class, 20);
-    	if(d!=null)
+    	Course c=session.get(Course.class, 7001);
+    	if(c!=null)
     	{
-    		System.out.println(d.getDeptno()+" "+d.getDname());
-    		for(Employee e:d.getElist())
-    			System.out.println(e.getEmpid()+" "+e.getEname()+" "+e.getSalary());
-    	}
-    	Employee e=session.get(Employee.class, 101);
-    	if(e!=null)
+    		System.out.println(c.getCname()+" "+c.getDuration());
+    		for(Student s: c.getSlist())
+    			System.out.println(s.getSid()+" "+s.getSname()+" "+s.getAddress());
+     	}
+    	Student s=session.get(Student.class, 103);
+    	if(s!=null)
     	{
-    		System.out.println(e.getEname()+" "+e.getSalary());
-    		System.out.println(e.getDept().getDeptno()+" "+e.getDept().getDname());
+    		System.out.println(s.getSname()+" "+s.getAddress());
+    		for(Course c1 : s.getClist())
+    			System.out.println(c1.getCid()+" "+c1.getCname()+" "+c1.getDuration());
     	}
     	session.close();
     	factory.close();

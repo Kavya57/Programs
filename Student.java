@@ -1,49 +1,49 @@
-import java.sql.Date;
+package com.deloitte.thirdmvn.hibthird.entity;
+import java.util.List;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+@Entity
 public class Student
 {
-   int rno,age;
-   String name;
-   Date dob;
-   public Student(int rno,String name, int age,  Date dob)
-   {
+  @Id
+  int sid;
+  String sname;
+  String address;
+  @ManyToMany(mappedBy="slist")
+  List<Course> clist;
+  public Student() { }
+public Student(int sid, String sname, String address) {
 	super();
-	this.rno = rno;
-	this.age = age;
-	this.name = name;
-	this.dob = dob;
-   }
-public int getRno() 
-   {
-	return rno;
-   }
-   public void setRno(int rno) 
-   {
-	this.rno = rno;
-   }
-   public int getAge() 
-   {
-	return age;
-   }
-   public void setAge(int age) 
-   {
-	this.age = age;
-   }
-   public String getName() 
-   {
-	return name;
-   }
-   public void setName(String name)
-   {
- 	this.name = name;
-   }
-   public Date getDob()
-   {
-	return dob;
-   }
-   public void setDob(Date dob)
-   {
-	this.dob = dob;
-   }
-   
-    
+	this.sid = sid;
+	this.sname = sname;
+	this.address = address;
+}
+public int getSid() {
+	return sid;
+}
+public void setSid(int sid) {
+	this.sid = sid;
+}
+public String getSname() {
+	return sname;
+}
+public void setSname(String sname) {
+	this.sname = sname;
+}
+public String getAddress() {
+	return address;
+}
+public void setAddress(String address) {
+	this.address = address;
+}
+public List<Course> getClist() {
+	return clist;
+}
+public void setClist(List<Course> clist) {
+	this.clist = clist;
+}
+  
+  
+  
 }
