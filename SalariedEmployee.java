@@ -1,0 +1,24 @@
+package com.deloitte.firstmvn.hibsecond.entity;
+import javax.persistence.DiscriminatorValue;
+import javax.persistence.Entity;
+import com.deloitte.firstmvn.hibsecond.Employee;
+@DiscriminatorValue("Salaried")
+@Entity
+public class SalariedEmployee extends Employee
+{
+   double salary;
+   public SalariedEmployee() { }
+   public SalariedEmployee(int empid, String ename, double salary)
+   {
+	super(empid,ename);
+	this.salary = salary;
+   }
+   public double getSalary()
+   {
+	return salary;
+   }
+   public void setSalary(double salary)
+   {
+	this.salary = salary;
+   }  
+}

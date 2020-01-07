@@ -10,6 +10,8 @@
    <property name="hibernate.connection.password">tiger</property>
    <property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
    <property name="hibernate.show_sql">true</property>
-   <mapping class="com.deloitte.firstmvn.hibfirst.entity.Employee"/>
+   <mapping class="com.deloitte.firstmvn.hibsecond.Employee"/>
+   <mapping class="com.deloitte.firstmvn.hibsecond.entity.SalariedEmployee"/>
+   <mapping class="com.deloitte.firstmvn.hibsecond.entity.HourlyEmployee"/>
 </session-factory>
 </hibernate-configuration>

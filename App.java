@@ -1,33 +1,36 @@
-package com.deloitte.firstmvn.hibfirst;
+package com.deloitte.thirdmvn.hibthird;
 import java.sql.Date;
-import java.util.Properties;
-
+import java.util.ArrayList;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
-//import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
-import com.deloitte.firstmvn.hibfirst.entity.Employee;
+import com.deloitte.thirdmvn.hibthird.entity.AadharCard;
+import com.deloitte.thirdmvn.hibthird.entity.Department;
+import com.deloitte.thirdmvn.hibthird.entity.Employee;
+import com.deloitte.thirdmvn.hibthird.entity.Person;
 public class App 
 {
     public static void main( String[] args )
     {
-       Properties prop=new Properties();
-       prop.put("hibernate.connection.driver_class","oracle.jdbc.driver.OracleDriver");
-       prop.put("hibernate.connection.url","jdbc:oracle:thin:@localhost:1521:orcl");
-       prop.put("hibernate.connection.username","scott");
-       prop.put("hibernate.connection.password","tiger");
-       prop.put("hibernate.dialect","org.hibernate.dialect.Oracle10gDialect");
-       prop.put("hibernate.show_sql","true");
-       Configuration config=new Configuration();
-       config.addAnnotatedClass(Employee.class);
-       config.addProperties(prop);
-       SessionFactory factory=config.buildSessionFactory();
-       Session session= factory.openSession();
-       Employee e = session.get(Employee.class, 101);
-       if(e!=null)
-    	   System.out.println(e.getEname()+" "+e.getSalary()+" "+e.getDoj());
-       session.close();
-       factory.close();
+    	Configuration cfg=new Configuration();
+    	cfg.configure();
+    	SessionFactory factory=cfg.buildSessionFactory();
+    	Session session=factory.openSession();
+    	Department d=session.get(Department.class, 20);
+    	if(d!=null)
+    	{
+    		System.out.println(d.getDeptno()+" "+d.getDname());
+    		for(Employee e:d.getElist())
+    			System.out.println(e.getEmpid()+" "+e.getEname()+" "+e.getSalary());
+    	}
+    	Employee e=session.get(Employee.class, 101);
+    	if(e!=null)
+    	{
+    		System.out.println(e.getEname()+" "+e.getSalary());
+    		System.out.println(e.getDept().getDeptno()+" "+e.getDept().getDname());
+    	}
+    	session.close();
+    	factory.close();
     }
 }
