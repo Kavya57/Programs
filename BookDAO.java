@@ -1,41 +1,41 @@
-package com.spring.web.dao;
+package bookweb;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import com.spring.web.entity.Employee;
 @Repository
-public class EmployeeDAO 
+public class BookDAO 
 {
     SessionFactory sessionFactory;
     @Autowired
-    public EmployeeDAO(SessionFactory sessionFactory)
+    public BookDAO(SessionFactory sessionFactory)
     {
     	this.sessionFactory=sessionFactory;
     }
-    public void insertEmployee(Employee e)
+    public void insertBook(Book b)
     {
     	Session session = sessionFactory.openSession();
-    	session.save(e);
+    	session.save(b);
     	session.beginTransaction().commit();
     }
-    public void deleteEmployee(int empid)
+    public void deleteBook(int bookid)
     {
     	Session session = sessionFactory.openSession();
-    	Employee e = session.get(Employee.class,empid);
-    	session.delete(e);
+    	Book b = session.get(Book.class,bookid);
+    	session.delete(b);
     	session.beginTransaction().commit();
     }
-    public void modifyEmployee(Employee e)
+    public void modifyBook(Book b)
     {
     	Session session = sessionFactory.openSession();
-    	Employee e1 = session.get(Employee.class,e.getEmpid());	
-    	e1.setEname(e.getEname());  e1.setSalary(e.getSalary());
+    	Book b1 = session.get(Book.class,b.getBookid());	
+    	b1.setBook_title(b.getBook_title());  b1.setBook_price(b.getBook_price());
     	session.beginTransaction().commit();
     }
-    public Employee getEmployee(int empid)
+    public Book getBook(int bookid)
     {
     	Session session = sessionFactory.openSession();
-    	return session.get(Employee.class,empid);
+    	return session.get(Book.class,bookid);
     }
 }
+
