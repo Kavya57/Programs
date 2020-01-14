@@ -1,12 +1,11 @@
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-public class OneWeb
+public class RegisterOne
 {
 	public static void main(String[] args) 
 	{
@@ -24,21 +23,22 @@ public class OneWeb
 		System.setProperty("webdriver.chrome.driver",
 				"C://chromedriver.exe");
 		WebDriver ObjDriver=new ChromeDriver();
-		ObjDriver.get("http://demo.opencart.com");
+		ObjDriver.get("http://demo.automationtesting.in/Register.html");
 		System.out.println("page is loaded");
 		String var1=ObjDriver.getTitle();
 		System.out.println("title of the page:"+var1);
-		WebElement Obj1=ObjDriver.findElement(By.xpath("//a[@href='https://demo.opencart.com/index.php?route=account/account']"));
+		WebElement Obj1=ObjDriver.findElement(By.xpath("//*[@id=\"header\"]/nav/div/div[2]/ul/li[1]/a"));
 		Obj1.click();
-		WebElement Obj2=ObjDriver.findElement(By.xpath("//*[@id='top-links']/ul/li[2]/ul/li[2]/a"));
+		WebElement Obj2=ObjDriver.findElement(By.xpath("//*[@id=\"btn1\"]"));
 		Obj2.click();
-		WebElement Obj3=ObjDriver.findElement(By.xpath("//*[@id='input-email']"));
+		WebElement Obj3=ObjDriver.findElement(By.xpath("/html/body/div/div/div[2]/input"));
 		Obj3.sendKeys(objprop.getProperty("login"));
-		WebElement Obj4=ObjDriver.findElement(By.xpath("//*[@id='input-password']"));
+		WebElement Obj4=ObjDriver.findElement(By.xpath("/html/body/div/div/div[3]/input"));
 		Obj4.sendKeys(objprop.getProperty("pwd"));
-		WebElement Obj5=ObjDriver.findElement(By.xpath("//*[@id=\"content\"]/div/div[2]/div/form/input"));
+		WebElement Obj5=ObjDriver.findElement(By.xpath("//*[@id=\"enterbtn\"]"));
 		Obj5.click();
-		WebElement Obj6=ObjDriver.findElement(By.xpath("//*[@id=\"account-login\"]/div[1]"));
-		System.out.println(Obj6.getText());
+		boolean status=Obj5.isDisplayed();
+		WebElement Obj6=ObjDriver.findElement(By.xpath("//*[@id=\"errormsg\"]"));
+		System.out.println(Obj6.getText());	   
 	}
 }
