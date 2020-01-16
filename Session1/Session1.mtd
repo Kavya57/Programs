@@ -1,0 +1,4289 @@
+﻿[General]
+TableCount=19
+
+[Table_0]
+FactTableName=Breakdown_meter
+DimensionCount=24
+
+[Breakdown_meter_Dim0]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Breakdown_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=APPLICATION
+Dim_1=FONT
+Dim_2=IMAGE
+Dim_3=Page
+Dim_4=Resource
+Dim_5=TEXT
+LikeMode=0
+
+[Breakdown_meter_Dim1]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Breakdown_map
+NumValues=95
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=95
+Dim_0=api-publ...26productid450
+Dim_1=api-publ...26productid450 (main URL)
+Dim_2=clients1...kjLWdns_4kFA==
+Dim_3=clients1...kkIy3OQUx6JBQ=
+Dim_4=clientse...e&milestone=79
+Dim_5=clientse...e&milestone=79 (main URL)
+Dim_6=connec...net/en_US/sdk.js
+Dim_7=connect....&ua=modern_es6
+Dim_8=demo.o.../nfl-130x100.png
+Dim_9=demo.o...css/opencart.css
+Dim_10=demo.o...emo/hp_1-228x228.jpg
+Dim_11=demo.o...heckout/checkout
+Dim_12=demo.o...heckout/checkout (main URL)
+Dim_13=demo.o...nt/moment.min.js
+Dim_14=demo.o...o/hp_2-80x80.jpg
+Dim_15=demo.o...r/harley-130x100.png
+Dim_16=demo.o...rer/dell-130x100.png
+Dim_17=demo.o...s/swiper.min.css
+Dim_18=demo.o...script/common.js
+Dim_19=demo.o...t/stylesheet.css
+Dim_20=demo.o...te=account/login
+Dim_21=demo.o...te=account/login (main URL)
+Dim_22=demo.ope...&product_id=45
+Dim_23=demo.ope...&product_id=45 (main URL)
+Dim_24=demo.ope....woff2?v=4.7.0
+Dim_25=demo.ope..._1-200x200.jpg
+Dim_26=demo.ope..._1-228x228.jpg
+Dim_27=demo.ope...30-200x200.jpg
+Dim_28=demo.ope...6-1140x380.jpg
+Dim_29=demo.ope...c-popup.min.js
+Dim_30=demo.ope...do-130x100.png
+Dim_31=demo.ope...epicker.min.js
+Dim_32=demo.ope...ey-130x100.png
+Dim_33=demo.ope...ice&order=DESC
+Dim_34=demo.ope...ice&order=DESC (main URL)
+Dim_35=demo.ope...ific-popup.css
+Dim_36=demo.ope...io-182x182.jpg
+Dim_37=demo.ope...iper.jquery.js
+Dim_38=demo.ope...ks-130x100.png
+Dim_39=demo.ope...la-130x100.png
+Dim_40=demo.ope...ll-130x100.png
+Dim_41=demo.ope...locales.min.js
+Dim_42=demo.ope...ng-130x100.png
+Dim_43=demo.ope...ny-130x100.png
+Dim_44=demo.ope...on-130x100.png
+Dim_45=demo.ope...otstrap.min.js
+Dim_46=demo.ope...picker.min.css
+Dim_47=demo.ope...r-1140x380.jpg
+Dim_48=demo.ope...ro_2-74x74.jpg
+Dim_49=demo.ope...ro_3-74x74.jpg
+Dim_50=demo.ope...ro_4-74x74.jpg
+Dim_51=demo.ope...tegory&path=18
+Dim_52=demo.ope...tegory&path=18 (main URL)
+Dim_53=demo.ope...tstrap.min.css
+Dim_54=demo.ope...wesome.min.css
+Dim_55=demo.ope...y-2.1.1.min.js
+Dim_56=demo.openc...io_1-228x228.jpg
+Dim_57=demo.openc...ir_1-228x228.jpg
+Dim_58=demo.openc...ne_1-200x200.jpg
+Dim_59=demo.openc...ok_1-200x200.jpg
+Dim_60=demo.openc...price&order=DESC
+Dim_61=demo.openc...price&order=DESC (main URL)
+Dim_62=demo.openc...ro_1-228x228.jpg
+Dim_63=demo.opencart.com
+Dim_64=demo.opencart.com (main URL)
+Dim_65=fonts.go...0_400i_300_700
+Dim_66=fonts.gs...7rgOUuhp.woff2
+Dim_67=fonts.gs...A-UFVZ0b.woff2
+Dim_68=m.addthi...57237842346060
+Dim_69=m.addthi...SC&pfm=0&icns=
+Dim_70=m.addthi...SC&pfm=0&icns= (main URL)
+Dim_71=platfo...r.com/widgets.js
+Dim_72=platform...11d8131d860.js
+Dim_73=platform...ff6b4d.en.html
+Dim_74=platform...ff6b4d.en.html (main URL)
+Dim_75=platform...o.opencart.com
+Dim_76=platform...o.opencart.com (main URL)
+Dim_77=s7.addth...21b4cda1d.html
+Dim_78=s7.addth...21b4cda1d.html (main URL)
+Dim_79=s7.addth...c822d3197cd.js
+Dim_80=s7.addth...this_widget.js
+Dim_81=sh.f48a1...4cd_Laptops_72
+Dim_82=ssl.gsta...variation_0.pb
+Dim_83=ssl.gstati...t_variation_0.pb
+Dim_84=staticxx...php?version=45
+Dim_85=staticxx...php?version=45 (main URL)
+Dim_86=syndic...ter.com/settings
+Dim_87=syndic...ter.com/settings (main URL)
+Dim_88=syndicat...ssion%22%7D%7D
+Dim_89=v1.addth...ck.config_resp
+Dim_90=www.gs...hourly/bins.json
+Dim_91=www.gs...hourly/bins.json (main URL)
+Dim_92=www.gs...y/merchants.json
+Dim_93=www.gs...y/merchants.json (main URL)
+Dim_94=z.moat...483/moatframe.js
+LikeMode=0
+
+[Breakdown_meter_Dim2]
+InternalDimName=Connection
+Dimension=Connection
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.485000
+
+[Breakdown_meter_Dim3]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 11
+Dim_1=Dummy2
+LikeMode=0
+
+[Breakdown_meter_Dim4]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=792.000000
+
+[Breakdown_meter_Dim5]
+InternalDimName=Size
+Dimension=Size
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.084961
+Dim_1=358.854492
+
+[Breakdown_meter_Dim6]
+InternalDimName=DNS Resolution
+Dimension=DNS Resolution
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.053000
+
+[Breakdown_meter_Dim7]
+InternalDimName=SendSize
+Dimension=SendSize
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.034180
+Dim_1=2.083984
+
+[Breakdown_meter_Dim8]
+InternalDimName=First Buffer
+Dimension=First Buffer
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.004000
+Dim_1=3.884000
+
+[Breakdown_meter_Dim9]
+InternalDimName=SSL Handshaking
+Dimension=SSL Handshaking
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.825000
+
+[Breakdown_meter_Dim10]
+InternalDimName=Network
+Dimension=Network
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.020000
+
+[Breakdown_meter_Dim11]
+InternalDimName=Server
+Dimension=Server
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=2.589000
+
+[Breakdown_meter_Dim12]
+InternalDimName=Error
+Dimension=Error
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Breakdown_meter_Dim13]
+InternalDimName=Client
+Dimension=Client
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.164000
+
+[Breakdown_meter_Dim14]
+InternalDimName=Receive
+Dimension=Receive
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=1.398000
+
+[Breakdown_meter_Dim15]
+InternalDimName=FTP Authentication
+Dimension=FTP Authentication
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Breakdown_meter_Dim16]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[Breakdown_meter_Dim17]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[Breakdown_meter_Dim18]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=84
+Dim_0=3
+Dim_1=4
+Dim_2=5
+Dim_3=6
+Dim_4=7
+Dim_5=8
+Dim_6=9
+Dim_7=10
+Dim_8=11
+Dim_9=12
+Dim_10=13
+Dim_11=14
+Dim_12=15
+Dim_13=16
+Dim_14=17
+Dim_15=18
+Dim_16=19
+Dim_17=20
+Dim_18=21
+Dim_19=22
+Dim_20=23
+Dim_21=24
+Dim_22=25
+Dim_23=26
+Dim_24=27
+Dim_25=28
+Dim_26=29
+Dim_27=30
+Dim_28=31
+Dim_29=32
+Dim_30=33
+Dim_31=34
+Dim_32=35
+Dim_33=36
+Dim_34=37
+Dim_35=38
+Dim_36=39
+Dim_37=40
+Dim_38=41
+Dim_39=42
+Dim_40=43
+Dim_41=46
+Dim_42=47
+Dim_43=48
+Dim_44=51
+Dim_45=52
+Dim_46=53
+Dim_47=54
+Dim_48=55
+Dim_49=56
+Dim_50=57
+Dim_51=58
+Dim_52=59
+Dim_53=60
+Dim_54=61
+Dim_55=62
+Dim_56=63
+Dim_57=64
+Dim_58=65
+Dim_59=66
+Dim_60=67
+Dim_61=68
+Dim_62=69
+Dim_63=70
+Dim_64=71
+Dim_65=72
+Dim_66=73
+Dim_67=74
+Dim_68=75
+Dim_69=76
+Dim_70=77
+Dim_71=78
+Dim_72=79
+Dim_73=80
+Dim_74=81
+Dim_75=82
+Dim_76=83
+Dim_77=84
+Dim_78=85
+Dim_79=86
+Dim_80=87
+Dim_81=88
+Dim_82=89
+Dim_83=90
+AsParent=1
+BasedOnTableName=
+
+[Breakdown_meter_Dim19]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[Breakdown_meter_Dim20]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=WebHttpHtml4
+LikeMode=0
+
+[Breakdown_meter_Dim21]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[Breakdown_meter_Dim22]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+LikeMode=0
+
+[Breakdown_meter_Dim23]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=WebHttpHtml4
+LikeMode=0
+
+[Table_1]
+FactTableName=DataPoint_meter
+DimensionCount=11
+
+[DataPoint_meter_Dim0]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=DataPoint_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=792.000000
+
+[DataPoint_meter_Dim1]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=20
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=20
+Dim_0=Action_Transaction
+Dim_1=Connection Shutdowns
+Dim_2=Connections
+Dim_3=Error -27995
+Dim_4=Hits
+Dim_5=HTTP_200
+Dim_6=HTTP_204
+Dim_7=HTTP_302
+Dim_8=Laptops
+Dim_9=Laptops_Transaction
+Dim_10=Login
+Dim_11=Login_Transaction
+Dim_12=Logout
+Dim_13=Logout_Transaction
+Dim_14=New Connections
+Dim_15=New Sessions
+Dim_16=Reused Sessions
+Dim_17=Throughput
+Dim_18=vuser_end_Transaction
+Dim_19=vuser_init_Transaction
+LikeMode=0
+
+[DataPoint_meter_Dim2]
+InternalDimName=Value
+Dimension=Value
+EqualFlag=1
+DimensionTableName=DataPoint_meter
+NumValues=20
+DimensionType=RelatedContinuous
+BaseDimension=Event Name
+DimCount=60
+Dim_0=0.000236
+Dim_1=0.000802
+Dim_2=vuser_init_Transaction
+Dim_3=2.092470
+Dim_4=41.535270
+Dim_5=Login
+Dim_6=2.738759
+Dim_7=3.595609
+Dim_8=Action_Transaction
+Dim_9=1.000000
+Dim_10=9.000000
+Dim_11=New Connections
+Dim_12=-9.000000
+Dim_13=8.000000
+Dim_14=Connections
+Dim_15=1.000000
+Dim_16=8.000000
+Dim_17=New Sessions
+Dim_18=679.000000
+Dim_19=667369.000000
+Dim_20=Throughput
+Dim_21=1.000000
+Dim_22=37.000000
+Dim_23=Hits
+Dim_24=1.000000
+Dim_25=37.000000
+Dim_26=HTTP_200
+Dim_27=1.000000
+Dim_28=11.000000
+Dim_29=Connection Shutdowns
+Dim_30=40.204000
+Dim_31=41.535378
+Dim_32=Login_Transaction
+Dim_33=1.000000
+Dim_34=1.000000
+Dim_35=Reused Sessions
+Dim_36=34.915735
+Dim_37=56.622918
+Dim_38=Laptops
+Dim_39=34.915799
+Dim_40=56.622985
+Dim_41=Laptops_Transaction
+Dim_42=1.000000
+Dim_43=1.000000
+Dim_44=HTTP_204
+Dim_45=1.000000
+Dim_46=1.000000
+Dim_47=HTTP_302
+Dim_48=-27995.000000
+Dim_49=-27995.000000
+Dim_50=Error -27995
+Dim_51=12.457244
+Dim_52=13.165712
+Dim_53=Logout
+Dim_54=12.457289
+Dim_55=13.165764
+Dim_56=Logout_Transaction
+Dim_57=0.000015
+Dim_58=0.000069
+Dim_59=vuser_end_Transaction
+
+[DataPoint_meter_Dim3]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=SSLs
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[DataPoint_meter_Dim4]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[DataPoint_meter_Dim5]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[DataPoint_meter_Dim6]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[DataPoint_meter_Dim7]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=WebHttpHtml4
+LikeMode=0
+
+[DataPoint_meter_Dim8]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[DataPoint_meter_Dim9]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=WebHttpHtml4
+LikeMode=0
+
+[DataPoint_meter_Dim10]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 11
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_2]
+FactTableName=Diagnostic_meter
+DimensionCount=8
+
+[Diagnostic_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=20
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=20
+Dim_0=Action_Transaction
+Dim_1=Connection Shutdowns
+Dim_2=Connections
+Dim_3=Error -27995
+Dim_4=Hits
+Dim_5=HTTP_200
+Dim_6=HTTP_204
+Dim_7=HTTP_302
+Dim_8=Laptops
+Dim_9=Laptops_Transaction
+Dim_10=Login
+Dim_11=Login_Transaction
+Dim_12=Logout
+Dim_13=Logout_Transaction
+Dim_14=New Connections
+Dim_15=New Sessions
+Dim_16=Reused Sessions
+Dim_17=Throughput
+Dim_18=vuser_end_Transaction
+Dim_19=vuser_init_Transaction
+LikeMode=0
+
+[Diagnostic_meter_Dim1]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Diagnostic_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=792.000000
+
+[Diagnostic_meter_Dim2]
+InternalDimName=Value
+Dimension=Value
+EqualFlag=1
+DimensionTableName=Diagnostic_meter
+NumValues=20
+DimensionType=RelatedContinuous
+BaseDimension=Event Name
+DimCount=60
+Dim_0=0.000236
+Dim_1=0.000802
+Dim_2=vuser_init_Transaction
+Dim_3=2.092470
+Dim_4=41.535270
+Dim_5=Login
+Dim_6=2.738759
+Dim_7=3.595609
+Dim_8=Action_Transaction
+Dim_9=1.000000
+Dim_10=9.000000
+Dim_11=New Connections
+Dim_12=-9.000000
+Dim_13=8.000000
+Dim_14=Connections
+Dim_15=1.000000
+Dim_16=8.000000
+Dim_17=New Sessions
+Dim_18=679.000000
+Dim_19=667369.000000
+Dim_20=Throughput
+Dim_21=1.000000
+Dim_22=37.000000
+Dim_23=Hits
+Dim_24=1.000000
+Dim_25=37.000000
+Dim_26=HTTP_200
+Dim_27=1.000000
+Dim_28=11.000000
+Dim_29=Connection Shutdowns
+Dim_30=40.204000
+Dim_31=41.535378
+Dim_32=Login_Transaction
+Dim_33=1.000000
+Dim_34=1.000000
+Dim_35=Reused Sessions
+Dim_36=34.915735
+Dim_37=56.622918
+Dim_38=Laptops
+Dim_39=34.915799
+Dim_40=56.622985
+Dim_41=Laptops_Transaction
+Dim_42=1.000000
+Dim_43=1.000000
+Dim_44=HTTP_204
+Dim_45=1.000000
+Dim_46=1.000000
+Dim_47=HTTP_302
+Dim_48=-27995.000000
+Dim_49=-27995.000000
+Dim_50=Error -27995
+Dim_51=12.457244
+Dim_52=13.165712
+Dim_53=Logout
+Dim_54=12.457289
+Dim_55=13.165764
+Dim_56=Logout_Transaction
+Dim_57=0.000015
+Dim_58=0.000069
+Dim_59=vuser_end_Transaction
+
+[Diagnostic_meter_Dim3]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=SSLs
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[Diagnostic_meter_Dim4]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[Diagnostic_meter_Dim5]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[Diagnostic_meter_Dim6]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[Diagnostic_meter_Dim7]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[Table_3]
+FactTableName=Error_meter
+DimensionCount=14
+
+[Error_meter_Dim0]
+InternalDimName=Father ID
+Dimension=Father ID
+EqualFlag=1
+DimensionTableName=Error_meter
+NumValues=1
+DimensionType=DiscreteNumber
+UseEscapeSequence=1
+DimCount=1
+Dim_0=17
+LikeMode=0
+
+[Error_meter_Dim1]
+InternalDimName=Line Number
+Dimension=Line Number
+EqualFlag=1
+DimensionTableName=Error_meter
+NumValues=1
+DimensionType=DiscreteNumber
+UseEscapeSequence=1
+DimCount=1
+Dim_0=112
+LikeMode=0
+
+[Error_meter_Dim2]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Error_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=792.000000
+
+[Error_meter_Dim3]
+InternalDimName=Error Message
+Dimension=Error Message
+EqualFlag=1
+DimensionTableName=ErrorMessage
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=Logout.c(112) Error -27995 Requested link ("Text=Your Store") not found
+LikeMode=0
+
+[Error_meter_Dim4]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=20
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=20
+Dim_0=Action_Transaction
+Dim_1=Connection Shutdowns
+Dim_2=Connections
+Dim_3=Error -27995
+Dim_4=Hits
+Dim_5=HTTP_200
+Dim_6=HTTP_204
+Dim_7=HTTP_302
+Dim_8=Laptops
+Dim_9=Laptops_Transaction
+Dim_10=Login
+Dim_11=Login_Transaction
+Dim_12=Logout
+Dim_13=Logout_Transaction
+Dim_14=New Connections
+Dim_15=New Sessions
+Dim_16=Reused Sessions
+Dim_17=Throughput
+Dim_18=vuser_end_Transaction
+Dim_19=vuser_init_Transaction
+LikeMode=0
+
+[Error_meter_Dim5]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=SSLs
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[Error_meter_Dim6]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[Error_meter_Dim7]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[Error_meter_Dim8]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[Error_meter_Dim9]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=WebHttpHtml4
+LikeMode=0
+
+[Error_meter_Dim10]
+InternalDimName=Action Name
+Dimension=Action Name
+EqualFlag=1
+DimensionTableName=ScriptActions
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=Logout
+LikeMode=0
+
+[Error_meter_Dim11]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[Error_meter_Dim12]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=WebHttpHtml4
+LikeMode=0
+
+[Error_meter_Dim13]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 11
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_4]
+FactTableName=Event_meter
+DimensionCount=13
+
+[Event_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=20
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=20
+Dim_0=Action_Transaction
+Dim_1=Connection Shutdowns
+Dim_2=Connections
+Dim_3=Error -27995
+Dim_4=Hits
+Dim_5=HTTP_200
+Dim_6=HTTP_204
+Dim_7=HTTP_302
+Dim_8=Laptops
+Dim_9=Laptops_Transaction
+Dim_10=Login
+Dim_11=Login_Transaction
+Dim_12=Logout
+Dim_13=Logout_Transaction
+Dim_14=New Connections
+Dim_15=New Sessions
+Dim_16=Reused Sessions
+Dim_17=Throughput
+Dim_18=vuser_end_Transaction
+Dim_19=vuser_init_Transaction
+LikeMode=0
+
+[Event_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=SSLs
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[Event_meter_Dim2]
+InternalDimName=Value
+Dimension=Value
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=20
+DimensionType=RelatedContinuous
+BaseDimension=Event Name
+DimCount=60
+Dim_0=0.000236
+Dim_1=0.000802
+Dim_2=vuser_init_Transaction
+Dim_3=2.092470
+Dim_4=41.535270
+Dim_5=Login
+Dim_6=2.738759
+Dim_7=3.595609
+Dim_8=Action_Transaction
+Dim_9=1.000000
+Dim_10=9.000000
+Dim_11=New Connections
+Dim_12=-9.000000
+Dim_13=8.000000
+Dim_14=Connections
+Dim_15=1.000000
+Dim_16=8.000000
+Dim_17=New Sessions
+Dim_18=679.000000
+Dim_19=667369.000000
+Dim_20=Throughput
+Dim_21=1.000000
+Dim_22=37.000000
+Dim_23=Hits
+Dim_24=1.000000
+Dim_25=37.000000
+Dim_26=HTTP_200
+Dim_27=1.000000
+Dim_28=11.000000
+Dim_29=Connection Shutdowns
+Dim_30=40.204000
+Dim_31=41.535378
+Dim_32=Login_Transaction
+Dim_33=1.000000
+Dim_34=1.000000
+Dim_35=Reused Sessions
+Dim_36=34.915735
+Dim_37=56.622918
+Dim_38=Laptops
+Dim_39=34.915799
+Dim_40=56.622985
+Dim_41=Laptops_Transaction
+Dim_42=1.000000
+Dim_43=1.000000
+Dim_44=HTTP_204
+Dim_45=1.000000
+Dim_46=1.000000
+Dim_47=HTTP_302
+Dim_48=-27995.000000
+Dim_49=-27995.000000
+Dim_50=Error -27995
+Dim_51=12.457244
+Dim_52=13.165712
+Dim_53=Logout
+Dim_54=12.457289
+Dim_55=13.165764
+Dim_56=Logout_Transaction
+Dim_57=0.000015
+Dim_58=0.000069
+Dim_59=vuser_end_Transaction
+
+[Event_meter_Dim3]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=792.000000
+
+[Event_meter_Dim4]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[Event_meter_Dim5]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[Event_meter_Dim6]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=8
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=44
+Dim_4=45
+Dim_5=49
+Dim_6=50
+Dim_7=91
+AsParent=1
+BasedOnTableName=
+
+[Event_meter_Dim7]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[Event_meter_Dim8]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=WebHttpHtml4
+LikeMode=0
+
+[Event_meter_Dim9]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[Event_meter_Dim10]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+LikeMode=0
+
+[Event_meter_Dim11]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=WebHttpHtml4
+LikeMode=0
+
+[Event_meter_Dim12]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 11
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_5]
+FactTableName=J2EETBD_meter
+DimensionCount=7
+
+[J2EETBD_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=20
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=20
+Dim_0=Action_Transaction
+Dim_1=Connection Shutdowns
+Dim_2=Connections
+Dim_3=Error -27995
+Dim_4=Hits
+Dim_5=HTTP_200
+Dim_6=HTTP_204
+Dim_7=HTTP_302
+Dim_8=Laptops
+Dim_9=Laptops_Transaction
+Dim_10=Login
+Dim_11=Login_Transaction
+Dim_12=Logout
+Dim_13=Logout_Transaction
+Dim_14=New Connections
+Dim_15=New Sessions
+Dim_16=Reused Sessions
+Dim_17=Throughput
+Dim_18=vuser_end_Transaction
+Dim_19=vuser_init_Transaction
+LikeMode=0
+
+[J2EETBD_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=SSLs
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[J2EETBD_meter_Dim2]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=J2EETBD_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=792.000000
+
+[J2EETBD_meter_Dim3]
+InternalDimName=Num Exception
+Dimension=Num Exception
+EqualFlag=1
+DimensionTableName=J2EETBD_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[J2EETBD_meter_Dim4]
+InternalDimName=Num Timeout
+Dimension=Num Timeout
+EqualFlag=1
+DimensionTableName=J2EETBD_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[J2EETBD_meter_Dim5]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[J2EETBD_meter_Dim6]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+LikeMode=0
+
+[Table_6]
+FactTableName=J2EETBD_Net_meter
+DimensionCount=6
+
+[J2EETBD_Net_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=20
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=20
+Dim_0=Action_Transaction
+Dim_1=Connection Shutdowns
+Dim_2=Connections
+Dim_3=Error -27995
+Dim_4=Hits
+Dim_5=HTTP_200
+Dim_6=HTTP_204
+Dim_7=HTTP_302
+Dim_8=Laptops
+Dim_9=Laptops_Transaction
+Dim_10=Login
+Dim_11=Login_Transaction
+Dim_12=Logout
+Dim_13=Logout_Transaction
+Dim_14=New Connections
+Dim_15=New Sessions
+Dim_16=Reused Sessions
+Dim_17=Throughput
+Dim_18=vuser_end_Transaction
+Dim_19=vuser_init_Transaction
+LikeMode=0
+
+[J2EETBD_Net_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=SSLs
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[J2EETBD_Net_meter_Dim2]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=J2EETBD_Net_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=792.000000
+
+[J2EETBD_Net_meter_Dim3]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=92
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=4
+Dim_5=5
+Dim_6=6
+Dim_7=7
+Dim_8=8
+Dim_9=9
+Dim_10=10
+Dim_11=11
+Dim_12=12
+Dim_13=13
+Dim_14=14
+Dim_15=15
+Dim_16=16
+Dim_17=17
+Dim_18=18
+Dim_19=19
+Dim_20=20
+Dim_21=21
+Dim_22=22
+Dim_23=23
+Dim_24=24
+Dim_25=25
+Dim_26=26
+Dim_27=27
+Dim_28=28
+Dim_29=29
+Dim_30=30
+Dim_31=31
+Dim_32=32
+Dim_33=33
+Dim_34=34
+Dim_35=35
+Dim_36=36
+Dim_37=37
+Dim_38=38
+Dim_39=39
+Dim_40=40
+Dim_41=41
+Dim_42=42
+Dim_43=43
+Dim_44=44
+Dim_45=45
+Dim_46=46
+Dim_47=47
+Dim_48=48
+Dim_49=49
+Dim_50=50
+Dim_51=51
+Dim_52=52
+Dim_53=53
+Dim_54=54
+Dim_55=55
+Dim_56=56
+Dim_57=57
+Dim_58=58
+Dim_59=59
+Dim_60=60
+Dim_61=61
+Dim_62=62
+Dim_63=63
+Dim_64=64
+Dim_65=65
+Dim_66=66
+Dim_67=67
+Dim_68=68
+Dim_69=69
+Dim_70=70
+Dim_71=71
+Dim_72=72
+Dim_73=73
+Dim_74=74
+Dim_75=75
+Dim_76=76
+Dim_77=77
+Dim_78=78
+Dim_79=79
+Dim_80=80
+Dim_81=81
+Dim_82=82
+Dim_83=83
+Dim_84=84
+Dim_85=85
+Dim_86=86
+Dim_87=87
+Dim_88=88
+Dim_89=89
+Dim_90=90
+Dim_91=91
+AsParent=1
+BasedOnTableName=
+
+[J2EETBD_Net_meter_Dim4]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[J2EETBD_Net_meter_Dim5]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+LikeMode=0
+
+[Table_7]
+FactTableName=Monitor_meter
+DimensionCount=8
+
+[Monitor_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=20
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=20
+Dim_0=Action_Transaction
+Dim_1=Connection Shutdowns
+Dim_2=Connections
+Dim_3=Error -27995
+Dim_4=Hits
+Dim_5=HTTP_200
+Dim_6=HTTP_204
+Dim_7=HTTP_302
+Dim_8=Laptops
+Dim_9=Laptops_Transaction
+Dim_10=Login
+Dim_11=Login_Transaction
+Dim_12=Logout
+Dim_13=Logout_Transaction
+Dim_14=New Connections
+Dim_15=New Sessions
+Dim_16=Reused Sessions
+Dim_17=Throughput
+Dim_18=vuser_end_Transaction
+Dim_19=vuser_init_Transaction
+LikeMode=0
+
+[Monitor_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=SSLs
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[Monitor_meter_Dim2]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[Monitor_meter_Dim3]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[Monitor_meter_Dim4]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Monitor_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=792.000000
+
+[Monitor_meter_Dim5]
+InternalDimName=Value
+Dimension=Value
+EqualFlag=1
+DimensionTableName=Monitor_meter
+NumValues=20
+DimensionType=RelatedContinuous
+BaseDimension=Event Name
+DimCount=60
+Dim_0=0.000236
+Dim_1=0.000802
+Dim_2=vuser_init_Transaction
+Dim_3=2.092470
+Dim_4=41.535270
+Dim_5=Login
+Dim_6=2.738759
+Dim_7=3.595609
+Dim_8=Action_Transaction
+Dim_9=1.000000
+Dim_10=9.000000
+Dim_11=New Connections
+Dim_12=-9.000000
+Dim_13=8.000000
+Dim_14=Connections
+Dim_15=1.000000
+Dim_16=8.000000
+Dim_17=New Sessions
+Dim_18=679.000000
+Dim_19=667369.000000
+Dim_20=Throughput
+Dim_21=1.000000
+Dim_22=37.000000
+Dim_23=Hits
+Dim_24=1.000000
+Dim_25=37.000000
+Dim_26=HTTP_200
+Dim_27=1.000000
+Dim_28=11.000000
+Dim_29=Connection Shutdowns
+Dim_30=40.204000
+Dim_31=41.535378
+Dim_32=Login_Transaction
+Dim_33=1.000000
+Dim_34=1.000000
+Dim_35=Reused Sessions
+Dim_36=34.915735
+Dim_37=56.622918
+Dim_38=Laptops
+Dim_39=34.915799
+Dim_40=56.622985
+Dim_41=Laptops_Transaction
+Dim_42=1.000000
+Dim_43=1.000000
+Dim_44=HTTP_204
+Dim_45=1.000000
+Dim_46=1.000000
+Dim_47=HTTP_302
+Dim_48=-27995.000000
+Dim_49=-27995.000000
+Dim_50=Error -27995
+Dim_51=12.457244
+Dim_52=13.165712
+Dim_53=Logout
+Dim_54=12.457289
+Dim_55=13.165764
+Dim_56=Logout_Transaction
+Dim_57=0.000015
+Dim_58=0.000069
+Dim_59=vuser_end_Transaction
+
+[Monitor_meter_Dim6]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[Monitor_meter_Dim7]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[Table_8]
+FactTableName=Sap_osm_meter
+DimensionCount=6
+
+[Sap_osm_meter_Dim0]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[Sap_osm_meter_Dim1]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Sap_osm_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=792.000000
+
+[Sap_osm_meter_Dim2]
+InternalDimName=PageOutKB
+Dimension=PageOutKB
+EqualFlag=1
+DimensionTableName=Sap_osm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_osm_meter_Dim3]
+InternalDimName=PageInKB
+Dimension=PageInKB
+EqualFlag=1
+DimensionTableName=Sap_osm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_osm_meter_Dim4]
+InternalDimName=Disks
+Dimension=Disks
+EqualFlag=1
+DimensionTableName=Sap_osm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_osm_meter_Dim5]
+InternalDimName=CPU
+Dimension=CPU
+EqualFlag=1
+DimensionTableName=Sap_osm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Table_9]
+FactTableName=Sap_sr_meter
+DimensionCount=34
+
+[Sap_sr_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=20
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=20
+Dim_0=Action_Transaction
+Dim_1=Connection Shutdowns
+Dim_2=Connections
+Dim_3=Error -27995
+Dim_4=Hits
+Dim_5=HTTP_200
+Dim_6=HTTP_204
+Dim_7=HTTP_302
+Dim_8=Laptops
+Dim_9=Laptops_Transaction
+Dim_10=Login
+Dim_11=Login_Transaction
+Dim_12=Logout
+Dim_13=Logout_Transaction
+Dim_14=New Connections
+Dim_15=New Sessions
+Dim_16=Reused Sessions
+Dim_17=Throughput
+Dim_18=vuser_end_Transaction
+Dim_19=vuser_init_Transaction
+LikeMode=0
+
+[Sap_sr_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=SSLs
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[Sap_sr_meter_Dim2]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[Sap_sr_meter_Dim3]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[Sap_sr_meter_Dim4]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=92
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=4
+Dim_5=5
+Dim_6=6
+Dim_7=7
+Dim_8=8
+Dim_9=9
+Dim_10=10
+Dim_11=11
+Dim_12=12
+Dim_13=13
+Dim_14=14
+Dim_15=15
+Dim_16=16
+Dim_17=17
+Dim_18=18
+Dim_19=19
+Dim_20=20
+Dim_21=21
+Dim_22=22
+Dim_23=23
+Dim_24=24
+Dim_25=25
+Dim_26=26
+Dim_27=27
+Dim_28=28
+Dim_29=29
+Dim_30=30
+Dim_31=31
+Dim_32=32
+Dim_33=33
+Dim_34=34
+Dim_35=35
+Dim_36=36
+Dim_37=37
+Dim_38=38
+Dim_39=39
+Dim_40=40
+Dim_41=41
+Dim_42=42
+Dim_43=43
+Dim_44=44
+Dim_45=45
+Dim_46=46
+Dim_47=47
+Dim_48=48
+Dim_49=49
+Dim_50=50
+Dim_51=51
+Dim_52=52
+Dim_53=53
+Dim_54=54
+Dim_55=55
+Dim_56=56
+Dim_57=57
+Dim_58=58
+Dim_59=59
+Dim_60=60
+Dim_61=61
+Dim_62=62
+Dim_63=63
+Dim_64=64
+Dim_65=65
+Dim_66=66
+Dim_67=67
+Dim_68=68
+Dim_69=69
+Dim_70=70
+Dim_71=71
+Dim_72=72
+Dim_73=73
+Dim_74=74
+Dim_75=75
+Dim_76=76
+Dim_77=77
+Dim_78=78
+Dim_79=79
+Dim_80=80
+Dim_81=81
+Dim_82=82
+Dim_83=83
+Dim_84=84
+Dim_85=85
+Dim_86=86
+Dim_87=87
+Dim_88=88
+Dim_89=89
+Dim_90=90
+Dim_91=91
+AsParent=1
+BasedOnTableName=
+
+[Sap_sr_meter_Dim5]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[Sap_sr_meter_Dim6]
+InternalDimName=Roll In Time
+Dimension=Roll In Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim7]
+InternalDimName=Output Len
+Dimension=Output Len
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim8]
+InternalDimName=Input Len
+Dimension=Input Len
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim9]
+InternalDimName=Queue Time
+Dimension=Queue Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim10]
+InternalDimName=Cpu Time
+Dimension=Cpu Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim11]
+InternalDimName=Resp Time
+Dimension=Resp Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim12]
+InternalDimName=Lock Time
+Dimension=Lock Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim13]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=792.000000
+
+[Sap_sr_meter_Dim14]
+InternalDimName=Database Time
+Dimension=Database Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim15]
+InternalDimName=Start Time
+Dimension=Start Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim16]
+InternalDimName=Rfc Time
+Dimension=Rfc Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim17]
+InternalDimName=Network Time
+Dimension=Network Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim18]
+InternalDimName=End-User Time
+Dimension=End-User Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim19]
+InternalDimName=GuiNet Time
+Dimension=GuiNet Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim20]
+InternalDimName=Roll Out Time
+Dimension=Roll Out Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim21]
+InternalDimName=Roll Wait Time
+Dimension=Roll Wait Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim22]
+InternalDimName=Cuaload Time
+Dimension=Cuaload Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim23]
+InternalDimName=Dynpload Time
+Dimension=Dynpload Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim24]
+InternalDimName=Repload Time
+Dimension=Repload Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim25]
+InternalDimName=Generate Time
+Dimension=Generate Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim26]
+InternalDimName=Commit Time
+Dimension=Commit Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim27]
+InternalDimName=DB Time to Record
+Dimension=DB Time to Record
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim28]
+InternalDimName=Database Records
+Dimension=Database Records
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim29]
+InternalDimName=Gui Time
+Dimension=Gui Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim30]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=WebHttpHtml4
+LikeMode=0
+
+[Sap_sr_meter_Dim31]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[Sap_sr_meter_Dim32]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=WebHttpHtml4
+LikeMode=0
+
+[Sap_sr_meter_Dim33]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 11
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_10]
+FactTableName=Sap_wpm_meter
+DimensionCount=8
+
+[Sap_wpm_meter_Dim0]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[Sap_wpm_meter_Dim1]
+InternalDimName=StoppedOther
+Dimension=StoppedOther
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_wpm_meter_Dim2]
+InternalDimName=StoppedPRIV
+Dimension=StoppedPRIV
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_wpm_meter_Dim3]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=792.000000
+
+[Sap_wpm_meter_Dim4]
+InternalDimName=Ended
+Dimension=Ended
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_wpm_meter_Dim5]
+InternalDimName=StoppedCPIC
+Dimension=StoppedCPIC
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_wpm_meter_Dim6]
+InternalDimName=Running
+Dimension=Running
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_wpm_meter_Dim7]
+InternalDimName=Waiting
+Dimension=Waiting
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Table_11]
+FactTableName=SARM_meter
+DimensionCount=12
+
+[SARM_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=20
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=20
+Dim_0=Action_Transaction
+Dim_1=Connection Shutdowns
+Dim_2=Connections
+Dim_3=Error -27995
+Dim_4=Hits
+Dim_5=HTTP_200
+Dim_6=HTTP_204
+Dim_7=HTTP_302
+Dim_8=Laptops
+Dim_9=Laptops_Transaction
+Dim_10=Login
+Dim_11=Login_Transaction
+Dim_12=Logout
+Dim_13=Logout_Transaction
+Dim_14=New Connections
+Dim_15=New Sessions
+Dim_16=Reused Sessions
+Dim_17=Throughput
+Dim_18=vuser_end_Transaction
+Dim_19=vuser_init_Transaction
+LikeMode=0
+
+[SARM_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=SSLs
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[SARM_meter_Dim2]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[SARM_meter_Dim3]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[SARM_meter_Dim4]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=92
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=4
+Dim_5=5
+Dim_6=6
+Dim_7=7
+Dim_8=8
+Dim_9=9
+Dim_10=10
+Dim_11=11
+Dim_12=12
+Dim_13=13
+Dim_14=14
+Dim_15=15
+Dim_16=16
+Dim_17=17
+Dim_18=18
+Dim_19=19
+Dim_20=20
+Dim_21=21
+Dim_22=22
+Dim_23=23
+Dim_24=24
+Dim_25=25
+Dim_26=26
+Dim_27=27
+Dim_28=28
+Dim_29=29
+Dim_30=30
+Dim_31=31
+Dim_32=32
+Dim_33=33
+Dim_34=34
+Dim_35=35
+Dim_36=36
+Dim_37=37
+Dim_38=38
+Dim_39=39
+Dim_40=40
+Dim_41=41
+Dim_42=42
+Dim_43=43
+Dim_44=44
+Dim_45=45
+Dim_46=46
+Dim_47=47
+Dim_48=48
+Dim_49=49
+Dim_50=50
+Dim_51=51
+Dim_52=52
+Dim_53=53
+Dim_54=54
+Dim_55=55
+Dim_56=56
+Dim_57=57
+Dim_58=58
+Dim_59=59
+Dim_60=60
+Dim_61=61
+Dim_62=62
+Dim_63=63
+Dim_64=64
+Dim_65=65
+Dim_66=66
+Dim_67=67
+Dim_68=68
+Dim_69=69
+Dim_70=70
+Dim_71=71
+Dim_72=72
+Dim_73=73
+Dim_74=74
+Dim_75=75
+Dim_76=76
+Dim_77=77
+Dim_78=78
+Dim_79=79
+Dim_80=80
+Dim_81=81
+Dim_82=82
+Dim_83=83
+Dim_84=84
+Dim_85=85
+Dim_86=86
+Dim_87=87
+Dim_88=88
+Dim_89=89
+Dim_90=90
+Dim_91=91
+AsParent=1
+BasedOnTableName=
+
+[SARM_meter_Dim5]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[SARM_meter_Dim6]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=SARM_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=792.000000
+
+[SARM_meter_Dim7]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=WebHttpHtml4
+LikeMode=0
+
+[SARM_meter_Dim8]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[SARM_meter_Dim9]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+LikeMode=0
+
+[SARM_meter_Dim10]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=WebHttpHtml4
+LikeMode=0
+
+[SARM_meter_Dim11]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 11
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_12]
+FactTableName=SARM_Net_meter
+DimensionCount=11
+
+[SARM_Net_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=20
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=20
+Dim_0=Action_Transaction
+Dim_1=Connection Shutdowns
+Dim_2=Connections
+Dim_3=Error -27995
+Dim_4=Hits
+Dim_5=HTTP_200
+Dim_6=HTTP_204
+Dim_7=HTTP_302
+Dim_8=Laptops
+Dim_9=Laptops_Transaction
+Dim_10=Login
+Dim_11=Login_Transaction
+Dim_12=Logout
+Dim_13=Logout_Transaction
+Dim_14=New Connections
+Dim_15=New Sessions
+Dim_16=Reused Sessions
+Dim_17=Throughput
+Dim_18=vuser_end_Transaction
+Dim_19=vuser_init_Transaction
+LikeMode=0
+
+[SARM_Net_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=SSLs
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[SARM_Net_meter_Dim2]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[SARM_Net_meter_Dim3]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[SARM_Net_meter_Dim4]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=92
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=4
+Dim_5=5
+Dim_6=6
+Dim_7=7
+Dim_8=8
+Dim_9=9
+Dim_10=10
+Dim_11=11
+Dim_12=12
+Dim_13=13
+Dim_14=14
+Dim_15=15
+Dim_16=16
+Dim_17=17
+Dim_18=18
+Dim_19=19
+Dim_20=20
+Dim_21=21
+Dim_22=22
+Dim_23=23
+Dim_24=24
+Dim_25=25
+Dim_26=26
+Dim_27=27
+Dim_28=28
+Dim_29=29
+Dim_30=30
+Dim_31=31
+Dim_32=32
+Dim_33=33
+Dim_34=34
+Dim_35=35
+Dim_36=36
+Dim_37=37
+Dim_38=38
+Dim_39=39
+Dim_40=40
+Dim_41=41
+Dim_42=42
+Dim_43=43
+Dim_44=44
+Dim_45=45
+Dim_46=46
+Dim_47=47
+Dim_48=48
+Dim_49=49
+Dim_50=50
+Dim_51=51
+Dim_52=52
+Dim_53=53
+Dim_54=54
+Dim_55=55
+Dim_56=56
+Dim_57=57
+Dim_58=58
+Dim_59=59
+Dim_60=60
+Dim_61=61
+Dim_62=62
+Dim_63=63
+Dim_64=64
+Dim_65=65
+Dim_66=66
+Dim_67=67
+Dim_68=68
+Dim_69=69
+Dim_70=70
+Dim_71=71
+Dim_72=72
+Dim_73=73
+Dim_74=74
+Dim_75=75
+Dim_76=76
+Dim_77=77
+Dim_78=78
+Dim_79=79
+Dim_80=80
+Dim_81=81
+Dim_82=82
+Dim_83=83
+Dim_84=84
+Dim_85=85
+Dim_86=86
+Dim_87=87
+Dim_88=88
+Dim_89=89
+Dim_90=90
+Dim_91=91
+AsParent=1
+BasedOnTableName=
+
+[SARM_Net_meter_Dim5]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[SARM_Net_meter_Dim6]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=SARM_Net_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=792.000000
+
+[SARM_Net_meter_Dim7]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=WebHttpHtml4
+LikeMode=0
+
+[SARM_Net_meter_Dim8]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+LikeMode=0
+
+[SARM_Net_meter_Dim9]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=WebHttpHtml4
+LikeMode=0
+
+[SARM_Net_meter_Dim10]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 11
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_13]
+FactTableName=SQLBD_meter
+DimensionCount=13
+
+[SQLBD_meter_Dim0]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[SQLBD_meter_Dim1]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[SQLBD_meter_Dim2]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[SQLBD_meter_Dim3]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=WebHttpHtml4
+LikeMode=0
+
+[SQLBD_meter_Dim4]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[SQLBD_meter_Dim5]
+InternalDimName=Other Time
+Dimension=Other Time
+EqualFlag=1
+DimensionTableName=SQLBD_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[SQLBD_meter_Dim6]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=SQLBD_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=792.000000
+
+[SQLBD_meter_Dim7]
+InternalDimName=Value
+Dimension=Value
+EqualFlag=1
+DimensionTableName=SQLBD_meter
+NumValues=20
+DimensionType=RelatedContinuous
+BaseDimension=Element Name
+DimCount=60
+Dim_0=0.000236
+Dim_1=0.000802
+Dim_2=vuser_init_Transaction
+Dim_3=2.092470
+Dim_4=41.535270
+Dim_5=Login
+Dim_6=2.738759
+Dim_7=3.595609
+Dim_8=Action_Transaction
+Dim_9=1.000000
+Dim_10=9.000000
+Dim_11=New Connections
+Dim_12=-9.000000
+Dim_13=8.000000
+Dim_14=Connections
+Dim_15=1.000000
+Dim_16=8.000000
+Dim_17=New Sessions
+Dim_18=679.000000
+Dim_19=667369.000000
+Dim_20=Throughput
+Dim_21=1.000000
+Dim_22=37.000000
+Dim_23=Hits
+Dim_24=1.000000
+Dim_25=37.000000
+Dim_26=HTTP_200
+Dim_27=1.000000
+Dim_28=11.000000
+Dim_29=Connection Shutdowns
+Dim_30=40.204000
+Dim_31=41.535378
+Dim_32=Login_Transaction
+Dim_33=1.000000
+Dim_34=1.000000
+Dim_35=Reused Sessions
+Dim_36=34.915735
+Dim_37=56.622918
+Dim_38=Laptops
+Dim_39=34.915799
+Dim_40=56.622985
+Dim_41=Laptops_Transaction
+Dim_42=1.000000
+Dim_43=1.000000
+Dim_44=HTTP_204
+Dim_45=1.000000
+Dim_46=1.000000
+Dim_47=HTTP_302
+Dim_48=-27995.000000
+Dim_49=-27995.000000
+Dim_50=Error -27995
+Dim_51=12.457244
+Dim_52=13.165712
+Dim_53=Logout
+Dim_54=12.457289
+Dim_55=13.165764
+Dim_56=Logout_Transaction
+Dim_57=0.000015
+Dim_58=0.000069
+Dim_59=vuser_end_Transaction
+
+[SQLBD_meter_Dim8]
+InternalDimName=Prepare
+Dimension=Prepare
+EqualFlag=1
+DimensionTableName=SQLBD_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[SQLBD_meter_Dim9]
+InternalDimName=Execute
+Dimension=Execute
+EqualFlag=1
+DimensionTableName=SQLBD_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[SQLBD_meter_Dim10]
+InternalDimName=Initial Fetch
+Dimension=Initial Fetch
+EqualFlag=1
+DimensionTableName=SQLBD_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[SQLBD_meter_Dim11]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=WebHttpHtml4
+LikeMode=0
+
+[SQLBD_meter_Dim12]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 11
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_14]
+FactTableName=TruClientBreakDown_meter
+DimensionCount=11
+
+[TruClientBreakDown_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=20
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=20
+Dim_0=Action_Transaction
+Dim_1=Connection Shutdowns
+Dim_2=Connections
+Dim_3=Error -27995
+Dim_4=Hits
+Dim_5=HTTP_200
+Dim_6=HTTP_204
+Dim_7=HTTP_302
+Dim_8=Laptops
+Dim_9=Laptops_Transaction
+Dim_10=Login
+Dim_11=Login_Transaction
+Dim_12=Logout
+Dim_13=Logout_Transaction
+Dim_14=New Connections
+Dim_15=New Sessions
+Dim_16=Reused Sessions
+Dim_17=Throughput
+Dim_18=vuser_end_Transaction
+Dim_19=vuser_init_Transaction
+LikeMode=0
+
+[TruClientBreakDown_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=SSLs
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[TruClientBreakDown_meter_Dim2]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[TruClientBreakDown_meter_Dim3]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[TruClientBreakDown_meter_Dim4]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=92
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=4
+Dim_5=5
+Dim_6=6
+Dim_7=7
+Dim_8=8
+Dim_9=9
+Dim_10=10
+Dim_11=11
+Dim_12=12
+Dim_13=13
+Dim_14=14
+Dim_15=15
+Dim_16=16
+Dim_17=17
+Dim_18=18
+Dim_19=19
+Dim_20=20
+Dim_21=21
+Dim_22=22
+Dim_23=23
+Dim_24=24
+Dim_25=25
+Dim_26=26
+Dim_27=27
+Dim_28=28
+Dim_29=29
+Dim_30=30
+Dim_31=31
+Dim_32=32
+Dim_33=33
+Dim_34=34
+Dim_35=35
+Dim_36=36
+Dim_37=37
+Dim_38=38
+Dim_39=39
+Dim_40=40
+Dim_41=41
+Dim_42=42
+Dim_43=43
+Dim_44=44
+Dim_45=45
+Dim_46=46
+Dim_47=47
+Dim_48=48
+Dim_49=49
+Dim_50=50
+Dim_51=51
+Dim_52=52
+Dim_53=53
+Dim_54=54
+Dim_55=55
+Dim_56=56
+Dim_57=57
+Dim_58=58
+Dim_59=59
+Dim_60=60
+Dim_61=61
+Dim_62=62
+Dim_63=63
+Dim_64=64
+Dim_65=65
+Dim_66=66
+Dim_67=67
+Dim_68=68
+Dim_69=69
+Dim_70=70
+Dim_71=71
+Dim_72=72
+Dim_73=73
+Dim_74=74
+Dim_75=75
+Dim_76=76
+Dim_77=77
+Dim_78=78
+Dim_79=79
+Dim_80=80
+Dim_81=81
+Dim_82=82
+Dim_83=83
+Dim_84=84
+Dim_85=85
+Dim_86=86
+Dim_87=87
+Dim_88=88
+Dim_89=89
+Dim_90=90
+Dim_91=91
+AsParent=1
+BasedOnTableName=
+
+[TruClientBreakDown_meter_Dim5]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[TruClientBreakDown_meter_Dim6]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=WebHttpHtml4
+LikeMode=0
+
+[TruClientBreakDown_meter_Dim7]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[TruClientBreakDown_meter_Dim8]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=TruClientBreakDown_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=792.000000
+
+[TruClientBreakDown_meter_Dim9]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=WebHttpHtml4
+LikeMode=0
+
+[TruClientBreakDown_meter_Dim10]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 11
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_15]
+FactTableName=TruClientJsBreakdown_meter
+DimensionCount=11
+
+[TruClientJsBreakdown_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=20
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=20
+Dim_0=Action_Transaction
+Dim_1=Connection Shutdowns
+Dim_2=Connections
+Dim_3=Error -27995
+Dim_4=Hits
+Dim_5=HTTP_200
+Dim_6=HTTP_204
+Dim_7=HTTP_302
+Dim_8=Laptops
+Dim_9=Laptops_Transaction
+Dim_10=Login
+Dim_11=Login_Transaction
+Dim_12=Logout
+Dim_13=Logout_Transaction
+Dim_14=New Connections
+Dim_15=New Sessions
+Dim_16=Reused Sessions
+Dim_17=Throughput
+Dim_18=vuser_end_Transaction
+Dim_19=vuser_init_Transaction
+LikeMode=0
+
+[TruClientJsBreakdown_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=SSLs
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[TruClientJsBreakdown_meter_Dim2]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[TruClientJsBreakdown_meter_Dim3]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[TruClientJsBreakdown_meter_Dim4]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=92
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=4
+Dim_5=5
+Dim_6=6
+Dim_7=7
+Dim_8=8
+Dim_9=9
+Dim_10=10
+Dim_11=11
+Dim_12=12
+Dim_13=13
+Dim_14=14
+Dim_15=15
+Dim_16=16
+Dim_17=17
+Dim_18=18
+Dim_19=19
+Dim_20=20
+Dim_21=21
+Dim_22=22
+Dim_23=23
+Dim_24=24
+Dim_25=25
+Dim_26=26
+Dim_27=27
+Dim_28=28
+Dim_29=29
+Dim_30=30
+Dim_31=31
+Dim_32=32
+Dim_33=33
+Dim_34=34
+Dim_35=35
+Dim_36=36
+Dim_37=37
+Dim_38=38
+Dim_39=39
+Dim_40=40
+Dim_41=41
+Dim_42=42
+Dim_43=43
+Dim_44=44
+Dim_45=45
+Dim_46=46
+Dim_47=47
+Dim_48=48
+Dim_49=49
+Dim_50=50
+Dim_51=51
+Dim_52=52
+Dim_53=53
+Dim_54=54
+Dim_55=55
+Dim_56=56
+Dim_57=57
+Dim_58=58
+Dim_59=59
+Dim_60=60
+Dim_61=61
+Dim_62=62
+Dim_63=63
+Dim_64=64
+Dim_65=65
+Dim_66=66
+Dim_67=67
+Dim_68=68
+Dim_69=69
+Dim_70=70
+Dim_71=71
+Dim_72=72
+Dim_73=73
+Dim_74=74
+Dim_75=75
+Dim_76=76
+Dim_77=77
+Dim_78=78
+Dim_79=79
+Dim_80=80
+Dim_81=81
+Dim_82=82
+Dim_83=83
+Dim_84=84
+Dim_85=85
+Dim_86=86
+Dim_87=87
+Dim_88=88
+Dim_89=89
+Dim_90=90
+Dim_91=91
+AsParent=1
+BasedOnTableName=
+
+[TruClientJsBreakdown_meter_Dim5]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[TruClientJsBreakdown_meter_Dim6]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=WebHttpHtml4
+LikeMode=0
+
+[TruClientJsBreakdown_meter_Dim7]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[TruClientJsBreakdown_meter_Dim8]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=TruClientJsBreakdown_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=792.000000
+
+[TruClientJsBreakdown_meter_Dim9]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=WebHttpHtml4
+LikeMode=0
+
+[TruClientJsBreakdown_meter_Dim10]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 11
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_16]
+FactTableName=URL_meter
+DimensionCount=10
+
+[URL_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=20
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=20
+Dim_0=Action_Transaction
+Dim_1=Connection Shutdowns
+Dim_2=Connections
+Dim_3=Error -27995
+Dim_4=Hits
+Dim_5=HTTP_200
+Dim_6=HTTP_204
+Dim_7=HTTP_302
+Dim_8=Laptops
+Dim_9=Laptops_Transaction
+Dim_10=Login
+Dim_11=Login_Transaction
+Dim_12=Logout
+Dim_13=Logout_Transaction
+Dim_14=New Connections
+Dim_15=New Sessions
+Dim_16=Reused Sessions
+Dim_17=Throughput
+Dim_18=vuser_end_Transaction
+Dim_19=vuser_init_Transaction
+LikeMode=0
+
+[URL_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=SSLs
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[URL_meter_Dim2]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=92
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=4
+Dim_5=5
+Dim_6=6
+Dim_7=7
+Dim_8=8
+Dim_9=9
+Dim_10=10
+Dim_11=11
+Dim_12=12
+Dim_13=13
+Dim_14=14
+Dim_15=15
+Dim_16=16
+Dim_17=17
+Dim_18=18
+Dim_19=19
+Dim_20=20
+Dim_21=21
+Dim_22=22
+Dim_23=23
+Dim_24=24
+Dim_25=25
+Dim_26=26
+Dim_27=27
+Dim_28=28
+Dim_29=29
+Dim_30=30
+Dim_31=31
+Dim_32=32
+Dim_33=33
+Dim_34=34
+Dim_35=35
+Dim_36=36
+Dim_37=37
+Dim_38=38
+Dim_39=39
+Dim_40=40
+Dim_41=41
+Dim_42=42
+Dim_43=43
+Dim_44=44
+Dim_45=45
+Dim_46=46
+Dim_47=47
+Dim_48=48
+Dim_49=49
+Dim_50=50
+Dim_51=51
+Dim_52=52
+Dim_53=53
+Dim_54=54
+Dim_55=55
+Dim_56=56
+Dim_57=57
+Dim_58=58
+Dim_59=59
+Dim_60=60
+Dim_61=61
+Dim_62=62
+Dim_63=63
+Dim_64=64
+Dim_65=65
+Dim_66=66
+Dim_67=67
+Dim_68=68
+Dim_69=69
+Dim_70=70
+Dim_71=71
+Dim_72=72
+Dim_73=73
+Dim_74=74
+Dim_75=75
+Dim_76=76
+Dim_77=77
+Dim_78=78
+Dim_79=79
+Dim_80=80
+Dim_81=81
+Dim_82=82
+Dim_83=83
+Dim_84=84
+Dim_85=85
+Dim_86=86
+Dim_87=87
+Dim_88=88
+Dim_89=89
+Dim_90=90
+Dim_91=91
+AsParent=1
+BasedOnTableName=
+
+[URL_meter_Dim3]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[URL_meter_Dim4]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=WebHttpHtml4
+LikeMode=0
+
+[URL_meter_Dim5]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[URL_meter_Dim6]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+LikeMode=0
+
+[URL_meter_Dim7]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=URL_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=792.000000
+
+[URL_meter_Dim8]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=WebHttpHtml4
+LikeMode=0
+
+[URL_meter_Dim9]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 11
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_17]
+FactTableName=VuserEvent_meter
+DimensionCount=10
+
+[VuserEvent_meter_Dim0]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[VuserEvent_meter_Dim1]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[VuserEvent_meter_Dim2]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[VuserEvent_meter_Dim3]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=WebHttpHtml4
+LikeMode=0
+
+[VuserEvent_meter_Dim4]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[VuserEvent_meter_Dim5]
+InternalDimName=Vuser End Status Name
+Dimension=Vuser End Status Name
+EqualFlag=1
+DimensionTableName=VuserEndStatus
+NumValues=4
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=4
+Dim_0=Error
+Dim_1=Failed
+Dim_2=Passed
+Dim_3=Stopped
+LikeMode=0
+
+[VuserEvent_meter_Dim6]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=VuserEvent_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=792.000000
+
+[VuserEvent_meter_Dim7]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=WebHttpHtml4
+LikeMode=0
+
+[VuserEvent_meter_Dim8]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 11
+Dim_1=Dummy2
+LikeMode=0
+
+[VuserEvent_meter_Dim9]
+InternalDimName=Vuser Status Name
+Dimension=Vuser Status Name
+EqualFlag=1
+DimensionTableName=VuserStatus
+NumValues=5
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=5
+Dim_0=Load
+Dim_1=Pause
+Dim_2=Quit
+Dim_3=Ready
+Dim_4=Run
+LikeMode=0
+
+[Table_18]
+FactTableName=WebEvent_meter
+DimensionCount=11
+
+[WebEvent_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=20
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=20
+Dim_0=Action_Transaction
+Dim_1=Connection Shutdowns
+Dim_2=Connections
+Dim_3=Error -27995
+Dim_4=Hits
+Dim_5=HTTP_200
+Dim_6=HTTP_204
+Dim_7=HTTP_302
+Dim_8=Laptops
+Dim_9=Laptops_Transaction
+Dim_10=Login
+Dim_11=Login_Transaction
+Dim_12=Logout
+Dim_13=Logout_Transaction
+Dim_14=New Connections
+Dim_15=New Sessions
+Dim_16=Reused Sessions
+Dim_17=Throughput
+Dim_18=vuser_end_Transaction
+Dim_19=vuser_init_Transaction
+LikeMode=0
+
+[WebEvent_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=SSLs
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[WebEvent_meter_Dim2]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[WebEvent_meter_Dim3]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[WebEvent_meter_Dim4]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[WebEvent_meter_Dim5]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=WebHttpHtml4
+LikeMode=0
+
+[WebEvent_meter_Dim6]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[WebEvent_meter_Dim7]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=WebHttpHtml4
+LikeMode=0
+
+[WebEvent_meter_Dim8]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 11
+Dim_1=Dummy2
+LikeMode=0
+
+[WebEvent_meter_Dim9]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=WebEvent_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=792.000000
+
+[WebEvent_meter_Dim10]
+InternalDimName=Value
+Dimension=Value
+EqualFlag=1
+DimensionTableName=WebEvent_meter
+NumValues=20
+DimensionType=RelatedContinuous
+BaseDimension=Event Name
+DimCount=60
+Dim_0=0.000236
+Dim_1=0.000802
+Dim_2=vuser_init_Transaction
+Dim_3=2.092470
+Dim_4=41.535270
+Dim_5=Login
+Dim_6=2.738759
+Dim_7=3.595609
+Dim_8=Action_Transaction
+Dim_9=1.000000
+Dim_10=9.000000
+Dim_11=New Connections
+Dim_12=-9.000000
+Dim_13=8.000000
+Dim_14=Connections
+Dim_15=1.000000
+Dim_16=8.000000
+Dim_17=New Sessions
+Dim_18=679.000000
+Dim_19=667369.000000
+Dim_20=Throughput
+Dim_21=1.000000
+Dim_22=37.000000
+Dim_23=Hits
+Dim_24=1.000000
+Dim_25=37.000000
+Dim_26=HTTP_200
+Dim_27=1.000000
+Dim_28=11.000000
+Dim_29=Connection Shutdowns
+Dim_30=40.204000
+Dim_31=41.535378
+Dim_32=Login_Transaction
+Dim_33=1.000000
+Dim_34=1.000000
+Dim_35=Reused Sessions
+Dim_36=34.915735
+Dim_37=56.622918
+Dim_38=Laptops
+Dim_39=34.915799
+Dim_40=56.622985
+Dim_41=Laptops_Transaction
+Dim_42=1.000000
+Dim_43=1.000000
+Dim_44=HTTP_204
+Dim_45=1.000000
+Dim_46=1.000000
+Dim_47=HTTP_302
+Dim_48=-27995.000000
+Dim_49=-27995.000000
+Dim_50=Error -27995
+Dim_51=12.457244
+Dim_52=13.165712
+Dim_53=Logout
+Dim_54=12.457289
+Dim_55=13.165764
+Dim_56=Logout_Transaction
+Dim_57=0.000015
+Dim_58=0.000069
+Dim_59=vuser_end_Transaction
+
